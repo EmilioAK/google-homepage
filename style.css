@@ -1,5 +1,5 @@
+/* Magic CSS that centers the main element. Taken from here: https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically */
 main {
-  /* Magic CSS that centers the main element. Taken from here: https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -15,6 +15,8 @@ main {
     height: 44px;
 }
 
+/* Magic CSS that centers the logo and buttons in relation to main. Taken from here: https://css-tricks.com/centering-css-complete-guide/ */
+/* The reason for not including the search-box: It seems to define the width of main, and as such is already centered */
 .logo, .search-buttons {
     display: flex;
     justify-content: center;
