@@ -35,3 +35,9 @@ ul {
 li {
   display: inline;
 }
+
+.sign-in-button {
+  width: 71px;
+  height: 30px;
+  background-color:#4285f4;
+}
