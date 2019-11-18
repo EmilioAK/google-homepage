@@ -1,10 +1,12 @@
-body, html {
-    height: 100%;
-    display: grid;
-  }
-main { /* thing to center */
-    margin: auto;
-  }
+main {
+  /* Magic CSS that centers the main element. Taken from here: https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
 
 #search-box {
     width: 582px;
