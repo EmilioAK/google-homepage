@@ -50,3 +50,13 @@ li {
   /* Button doesn't get centered by default. This hack sort of puts it back in line */
   transform: translateY(-17%);
 }
+
+.sign-in-btn {
+  background-color: #4285f4;
+  color: white;
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+}
