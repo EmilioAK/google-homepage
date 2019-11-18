@@ -42,6 +42,11 @@ body {
     margin: 1em;
 }
 
+.search-buttons input {
+  /* Adds space between the buttons. Does add unecessary space to the right of the rightmost button. Not sure if this is a problem */
+  margin-right: 1em;
+}
+
 /* Rules for nav */
 
 .navbar {
