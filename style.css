@@ -1,3 +1,15 @@
+html, body {
+   height:100%; 
+   margin:0; 
+}
+
+body { 
+  display:flex; 
+  flex-direction:column; 
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
 /* Magic CSS that centers the main element. Taken from here: https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically */
 main {
   position: absolute;
@@ -35,8 +47,6 @@ main {
   align-items: center;
 
   list-style-type: none;
-  font-size: 13px;
-  font-family: arial,sans-serif;
 }
 
 .nav-item {
@@ -57,4 +67,23 @@ main {
   border: none;
   border-radius: 2px;
   font-weight: bold;
+}
+
+/* Rules for footer */
+
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  color: #5f6368;
+}
+
+.footer-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-item {
+  margin-right: 2em;
 }
