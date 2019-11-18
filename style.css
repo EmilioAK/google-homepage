@@ -11,7 +11,7 @@ body {
 }
 
 /* Magic CSS that centers the main element. Taken from here: https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically */
-main {
+.center-on-page {
   position: absolute;
   top: 50%;
   left: 50%;
