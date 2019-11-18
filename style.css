@@ -27,7 +27,7 @@ html, body {
 body { 
   display:flex; 
   flex-direction:column; 
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
   font-size: 13px;
 }
 
