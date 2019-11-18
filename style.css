@@ -43,6 +43,11 @@ main {
   margin: 0.25em;
 }
 
+.nav-link {
+  color: #272727;
+  text-decoration: none;
+}
+
 .sign-in-btn {
   background-color: #4285f4;
   color: white;
