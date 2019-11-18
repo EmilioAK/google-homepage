@@ -8,6 +8,8 @@ main {
   transform: translateX(-50%) translateY(-50%);
 }
 
+/* Rules for main */
+
 #search-box {
     width: 582px;
     height: 44px;
@@ -19,4 +21,15 @@ main {
     align-items: center;
     margin: 1em;
 
+}
+
+/* Rules for nav */
+
+ul {
+  float: right;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
 }
