@@ -87,3 +87,11 @@ footer {
 .footer-item {
   margin-right: 2em;
 }
+
+.footer-item a {
+  color: #5f6368;
+  text-decoration: none;
+}
+.footer-item a:hover {
+  text-decoration: underline;
+}
