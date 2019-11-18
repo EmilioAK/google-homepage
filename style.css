@@ -1,0 +1,18 @@
+body, html {
+    height: 100%;
+    display: grid;
+  }
+main { /* thing to center */
+    margin: auto;
+  }
+
+#search-box {
+    width: 582px;
+    height: 44px;
+}
+
+.logo, .search-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
