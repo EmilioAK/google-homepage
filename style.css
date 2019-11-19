@@ -1,14 +1,6 @@
 /* General rules */
 
 /* Magic CSS that centers an element on the page. Taken from here: https://stackoverflow.com/questions/19461521/how-to-center-an-element-horizontally-and-vertically */
-.center-on-page {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
 
 /* Magic CSS that centers an element within another. Taken from here: https://css-tricks.com/centering-css-complete-guide/ */
 .center-element {
@@ -31,10 +23,17 @@ body {
   font-size: 13px;
 }
 
+
 /* Rules for main */
 
+main {
+  margin: auto;
+  margin-top: auto;
+}
+
 #search-box {
-    width: 582px;
+    max-width: 582px;
+    width: 75vw;
     height: 44px;
 }
 
