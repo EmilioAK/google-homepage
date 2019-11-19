@@ -1,7 +1,7 @@
 /* General rules */
 
 /* Magic CSS that centers an element within another. Taken from here: https://css-tricks.com/centering-css-complete-guide/ */
-.center-element {
+.center-children {
   display: flex;
   justify-content: center;
   align-items: center;
